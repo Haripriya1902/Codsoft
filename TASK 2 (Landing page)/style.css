@@ -1,0 +1,166 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  color: rgb(65, 11, 11);
+  font-size: medium;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(34, 6, 6);
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 5px;
+  text-align: right;
+}
+
+.navigation-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  padding-bottom: 1px;
+  color: black;
+}
+
+.navigation-item.hover {
+  color: lightgray;
+}
+
+.heading{
+  font-size: 35px;
+}
+
+
+/* home demo*/
+section#homedemo {
+  padding: 209px;
+  padding-left: 100px;
+  color: lightgray;
+  background-color: rgb(34, 6, 6);
+}
+
+h1#home-headline {
+  font-size: 50px;
+}
+
+p{
+  font-size: 20px;
+}
+
+p#homepara {
+  font-size: 20px;
+}
+
+/* About section */
+section#about {
+  padding: 200px;
+  background-image: url("images/homedemo1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: lightgray;
+}
+
+h2#about-heading{
+  font-size: 60px;
+}
+
+
+#cake-menu-section{
+  margin-bottom: 30px;
+  padding-left:400px;
+  align-items: center;
+  padding-top: 30px;
+}
+
+#cake-menu-section h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color:rgb(105, 26, 26);
+  
+}
+
+#cake-menu-section ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+}
+
+#cake-menu-section li {
+  margin-bottom: 30px;
+}
+
+#cake-menu-section li a {
+  display: flex;
+  align-items: center;
+}
+
+#cake-menu-section li img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+#cake-menu-section li span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.shop-now-btn {
+  background-color: rgb(56, 10, 10);
+  color: rgb(248, 244, 244);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.shop-now-btn:hover {
+  background-color: rgb(143, 93, 52))
+}
+
+span#newline{
+  display:block;
+}
+
+
+
+/* best sellers */
+
+/* Contact section */
+section#contact {
+  background-color: rgb(34, 6, 6);
+  padding: 30px;
+  color: lightgray;
+
+  line-height: 4em;
+}
+
+h3#contact-heading{
+  font-size: 48px;
+}
+
+#footer {
+  text-align: center;
+  padding: 25px;
+  background-color: white;
+  color: rgb(65, 11, 11)
+}
+text-footer {
+  
+  font-weight: bold;
+}
+
+h3#footerfont{
+  font-size: 48px;
+}
